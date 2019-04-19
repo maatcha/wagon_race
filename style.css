@@ -19,3 +19,13 @@
 #player2_race td.active {
   background-image: url("images/player2.jpg");
 }
+
+.timer {
+  text-align: center;
+  font-size: 25vh;
+}
+
+.commands {
+  text-align: center;
+  font-size: 5vh;
+}
