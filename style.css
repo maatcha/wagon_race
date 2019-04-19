@@ -22,7 +22,20 @@
 
 .timer {
   text-align: center;
-  font-size: 25vh;
+  font-size: 23vh;
+  flex-grow: 1;
+}
+
+.message-to-players {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  font-size: 50px;
+}
+
+.message-to-players img {
+  height: 75vh;
 }
 
 .commands {
