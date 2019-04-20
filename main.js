@@ -34,13 +34,34 @@ setTimeout(() => {
 }, 3000);
 
 setTimeout(() => {
+	timer.style.transition = "all 0.4s ease-in";
+	timer.style.fontSize = "2px";
+}, 600);
+
+setTimeout(() => {
+	timer.style.fontSize = null;
+	timer.style.transition = "all 0.05s ease-in";
 	timer.innerText = "2";
 }, 1000);
 
 setTimeout(() => {
+	timer.style.transition = "all 0.4s ease-in";
+	timer.style.fontSize = "2px";
+}, 1600);
+
+setTimeout(() => {
+	timer.style.fontSize = null;
+	timer.style.transition = "all 0.05s ease-in";
 	timer.innerText = "1";
 }, 2000);
 
 setTimeout(() => {
+	timer.style.transition = "all 0.4s ease-in"
+	timer.style.fontSize = "2px";
+}, 2600);
+
+setTimeout(() => {
+	timer.style.fontSize = null;
+	timer.style.transition = "all 0.05s ease-in";
 	timer.innerText = "GO !!!";
 }, 3000);
